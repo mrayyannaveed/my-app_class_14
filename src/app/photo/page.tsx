@@ -1,9 +1,9 @@
-import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react'
 
 const Photos = async () => {
-    const url = await fetch(`https://jsonplaceholder.typicode.com/photos`
+    const url = await fetch(`https://jsonplaceholder.typicode.com/photos`,
+        {cache: "no-store"}
     );
     const res = await url.json();
     // console.log(res)
