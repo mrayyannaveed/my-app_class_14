@@ -1,4 +1,4 @@
-export default async function Todo(props:{params: {todoId: string}}) {
+export default async function Todo(props:any) {
     // console.log("props", props)
     const url = await 
     fetch(`https://jsonplaceholder.typicode.com/todos/${props.params.todoId}`);
