@@ -6,12 +6,12 @@ const Post = async (props:any) => {
     const res = await url.json();
     // console.log(res)
   return (
-    <div>
-        <div className=' my-2 mx-2'>
+    <div className='flex justify-center items-center h-full mt-10 '>
+        <div className=' my-2 rounded-2xl text-xl text-white mx-2 bg-gradient-to-br from-pink-600 to-yellow-500 sm:p-20'>
             <h1 className='text-2xl my-2'>Post Details</h1>
-            <p>{res.id}</p>
-            <p>{res.title}</p>
-            <p>{res.body}</p>
+            <p><span className='font-semibold text-black'>Id:</span> {res.id}</p>
+            <p><span className='font-semibold text-black'>Title:</span> {res.title}</p>
+            <p><span className='font-semibold text-black'>Body:</span> {res.body}</p>
         </div>
     </div>
   )

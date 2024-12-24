@@ -7,7 +7,7 @@ const Todos = async () => {
     // console.log(res)
   
     return (
-      <div className='flex justify-center'>
+      <div className='flex justify-center mt-10 '>
       <div className='rounded-2xl text-white px-20 bg-gradient-to-br from-red-500 to-purple-400'>
         <h1 className="text-2xl my-2">Todos</h1>
         {res.map((todo : any, i : number) => {

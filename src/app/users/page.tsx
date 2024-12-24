@@ -6,8 +6,8 @@ const Users = async () => {
     const res = await url.json();
   return (
     <div>
-        <div className='flex justify-center h-[60vh] items-center'>
-        <div className='rounded-2xl text-white px-20 bg-gradient-to-br from-green-500 to-purple-400'>
+        <div className='flex justify-center h-[100vh] sm:h-[60vh] items-center'>
+        <div className='rounded-2xl text-white px-5 sm:px-20 bg-gradient-to-br from-green-500 to-purple-400'>
         <h1 className='text-3xl my-2 text-center'>Users</h1>
         {res.map((user: any, i:number) => {
             return (
