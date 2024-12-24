@@ -9,6 +9,7 @@ export const Navbar = () => {
             <Link href={"/todos"}>Todos</Link>
             <Link href={"/photo"}>Photos</Link>
             <Link href={"/posts"}>Posts</Link>
+            <Link href={"/users"}>Users</Link>
         </nav>
     </div>
   )

@@ -2,7 +2,7 @@ export default async function Home() {
 
   return (
     <div>
-      <h1 className="text-3xl my-5">Home</h1>
+      <h1 className="text-5xl my-10 font-bold text-center">Home</h1>
     </div>
   )
 }
